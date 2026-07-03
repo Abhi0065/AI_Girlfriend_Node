@@ -1,4 +1,4 @@
-# AI Girlfriend - Khushi 💕
+# AI Girlfriend
 
 A voice-powered AI companion web application that creates an interactive chat experience with an AI girlfriend named Khushi. Built with Node.js and powered by Google's Gemini AI.
 
