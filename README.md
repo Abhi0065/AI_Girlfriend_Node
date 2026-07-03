@@ -1,13 +1,13 @@
 # AI Girlfriend
 
-A voice-powered AI companion web application that creates an interactive chat experience with an AI girlfriend named Khushi. Built with Node.js and powered by Google's Gemini AI.
+A voice-powered AI companion web application that creates an interactive chat experience with an AI girlfriend named alexa. Built with Node.js and powered by Google's Gemini AI.
 
 ## 🌟 Features
 
 - **Voice Recognition**: Speak naturally and have conversations using Web Speech API
-- **Text-to-Speech**: Khushi responds with a natural-sounding voice
+- **Text-to-Speech**: alexa responds with a natural-sounding voice
 - **Real-time Chat Interface**: Beautiful, responsive chat UI with animated interactions
-- **Personality-driven AI**: Khushi has a warm, loving personality designed to be caring and supportive
+- **Personality-driven AI**: alexa has a warm, loving personality designed to be caring and supportive
 - **Mobile-friendly**: Responsive design that works on all devices
 - **Real-time Animations**: Visual feedback with pulsing animations during voice interactions
 
@@ -52,14 +52,14 @@ A voice-powered AI companion web application that creates an interactive chat ex
 
 5. **Open in browser**
    
-   Navigate to `http://localhost:5000` and start chatting with Khushi!
+   Navigate to `http://localhost:5000` and start chatting with alexa!
 
 ## 🎯 How to Use
 
 1. **Grant Microphone Permission**: Allow microphone access when prompted
 2. **Press the Microphone Button**: Click the purple microphone button to start speaking
-3. **Speak Naturally**: Talk to Khushi as you would with a friend
-4. **Listen to Response**: Khushi will respond both in text and voice
+3. **Speak Naturally**: Talk to alexa as you would with a friend
+4. **Listen to Response**: alexa will respond both in text and voice
 5. **Continue Conversation**: Keep the conversation going by pressing the mic button again
 
 ## 🛠️ Technical Stack
@@ -90,10 +90,10 @@ AI_Girlfriend/
 
 ### Personality Modification
 
-You can customize Khushi's personality by editing the `system_instruction` in `index.js`:
+You can customize alexa's personality by editing the `system_instruction` in `index.js`:
 
 ```javascript
-text: `Your name is Khushi. You are a loving, caring girlfriend...`
+text: `Your name is alexa. You are a loving, caring girlfriend...`
 ```
 
 ### Voice Settings
