@@ -11,27 +11,41 @@
   </head>
   <body>
     <div class="app-container">
-      <div class="chat-interface">
+      <div class="live-interface">
         <div class="header">
-          <h1 class="app-title">MY AI Girlfriend</h1>
-          <p class="app-subtitle">Khushi</p>
+          <div class="header-main">
+            <h1 class="app-title">MY AI Girlfriend</h1>
+            <p class="app-subtitle">
+              <span class="ws-indicator" id="ws-indicator"></span>
+              Priya 💕
+            </p>
+          </div>
         </div>
 
-        <div class="chat-section" id="chat-section">
-          <div class="chat-empty-state" id="empty-state">
-            <i class="fas fa-microphone-alt empty-icon"></i>
-            <h3>Start a conversation</h3>
-            <p>Tap the microphone button below and start speaking</p>
+        <div class="live-stage">
+          <div class="avatar-container" id="avatar-container">
+            <div class="avatar-ring ring-3"></div>
+            <div class="avatar-ring ring-2"></div>
+            <div class="avatar-ring ring-1"></div>
+            <div class="avatar-orb" id="avatar-orb">
+              <i class="fas fa-heart avatar-icon"></i>
+            </div>
           </div>
 
-          <div class="conversation-container" id="conversation"></div>
+          <div class="live-status-container">
+            <h2 class="live-status-title" id="status-title">Connecting WebSocket...</h2>
+            <p class="live-status-subtitle" id="status-subtitle">Tap mic to start talking</p>
+          </div>
+
         </div>
 
-        <div class="input-section">
-          <div class="status-indicator" id="status">Press to speak</div>
-          <button class="mic-button" id="mic-button">
-            <i class="fas fa-microphone"></i>
-          </button>
+        <div class="live-controls">
+          <div class="mic-wrapper">
+            <button class="live-mic-button" id="mic-button" title="Tap to toggle live listening" aria-label="Microphone">
+              <i class="fas fa-microphone" id="mic-icon"></i>
+            </button>
+            <span class="mic-hint">Tap to Start / Stop Listening</span>
+          </div>
         </div>
       </div>
     </div>
